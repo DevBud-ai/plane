@@ -47,7 +47,7 @@ const BillingSettings: NextPage = () => {
         <div className="w-80 pt-8 overflow-y-hidden flex-shrink-0">
           <SettingsSidebar />
         </div>
-        <section className="pr-9 py-8 w-full overflow-y-auto">
+        {/* <section className="pr-9 py-8 w-full overflow-y-auto">
           <div>
             <div className="flex  items-center py-3.5 border-b border-custom-border-200">
               <h3 className="text-xl font-medium">Billing & Plans</h3>
@@ -64,7 +64,7 @@ const BillingSettings: NextPage = () => {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </WorkspaceAuthorizationLayout>
   );

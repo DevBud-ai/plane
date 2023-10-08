@@ -127,7 +127,7 @@ const WorkspaceInvitation: NextPage = () => {
             )}
             <EmptySpaceItem
               Icon={StarIcon}
-              title="Star us on GitHub"
+              title=""
               action={() => {
                 router.push("https://github.com/makeplane");
               }}

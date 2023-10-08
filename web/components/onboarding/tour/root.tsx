@@ -11,7 +11,7 @@ import { PrimaryButton, SecondaryButton } from "components/ui";
 // icons
 import { XMarkIcon } from "@heroicons/react/24/outline";
 // images
-import PlaneWhiteLogo from "public/plane-logos/white-horizontal.svg";
+import PlaneWhiteLogo from "public/plane-logos/loddgo.jpeg";
 import IssuesTour from "public/onboarding/issues.webp";
 import CyclesTour from "public/onboarding/cycles.webp";
 import ModulesTour from "public/onboarding/modules.webp";

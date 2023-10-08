@@ -19,7 +19,7 @@ import { InviteMembers, JoinWorkspaces, UserDetails, Workspace } from "component
 // ui
 import { Spinner } from "components/ui";
 // images
-import BluePlaneLogoWithoutText from "public/plane-logos/blue-without-text.png";
+import BluePlaneLogoWithoutText from "public/plane-logos/loddgo.png";
 import BlackHorizontalLogo from "public/plane-logos/black-horizontal-with-blue-logo.svg";
 import WhiteHorizontalLogo from "public/plane-logos/white-horizontal-with-blue-logo.svg";
 // types
@@ -165,7 +165,7 @@ const Onboarding: NextPage = () => {
           <div className="absolute border-b-[0.5px] sm:border-r-[0.5px] border-custom-border-200 h-[0.5px] w-full top-1/2 left-0 -translate-y-1/2 sm:h-screen sm:w-[0.5px] sm:top-0 sm:left-1/2 md:left-1/3 sm:-translate-x-1/2 sm:translate-y-0 z-10" />
           {step === 1 ? (
             <div className="absolute grid place-items-center bg-custom-background-100 px-3 sm:px-0 py-5 left-2 sm:left-1/2 md:left-1/3 sm:-translate-x-1/2 top-1/2 -translate-y-1/2 sm:translate-y-0 sm:top-12 z-10">
-              <div className="h-[30px] w-[30px]">
+              <div className="h-[50px] w-[50px]">
                 <Image src={BluePlaneLogoWithoutText} alt="Plane logo" />
               </div>
             </div>

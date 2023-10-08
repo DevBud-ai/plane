@@ -112,7 +112,7 @@ const WorkspacePage: NextPage = () => {
       }
       right={
         <div className="flex items-center gap-3 px-3">
-          <button
+          {/* <button
             onClick={() => setIsProductUpdatesModalOpen(true)}
             className="flex items-center gap-1.5 bg-custom-background-80 text-xs font-medium py-1.5 px-3 rounded"
           >
@@ -129,7 +129,7 @@ const WorkspacePage: NextPage = () => {
               />
               Star us on GitHub
             </a>
-          </Link>
+          </Link> */}
         </div>
       }
     >
