@@ -20,8 +20,8 @@ import { InviteMembers, JoinWorkspaces, UserDetails, Workspace } from "component
 import { Spinner } from "components/ui";
 // images
 import BluePlaneLogoWithoutText from "public/plane-logos/loddgo.png";
-import BlackHorizontalLogo from "public/plane-logos/black-horizontal-with-blue-logo.svg";
-import WhiteHorizontalLogo from "public/plane-logos/white-horizontal-with-blue-logo.svg";
+import BlackHorizontalLogo from "public/plane-logos/loddgo.png";
+import WhiteHorizontalLogo from "public/plane-logos/loddgo.png";
 // types
 import { ICurrentUserResponse, IUser, TOnboardingSteps } from "types";
 import type { NextPage } from "next";

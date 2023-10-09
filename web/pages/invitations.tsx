@@ -21,8 +21,8 @@ import { SecondaryButton, PrimaryButton, EmptyState } from "components/ui";
 // icons
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
 // images
-import BlackHorizontalLogo from "public/plane-logos/black-horizontal-with-blue-logo.svg";
-import WhiteHorizontalLogo from "public/plane-logos/white-horizontal-with-blue-logo.svg";
+import BlackHorizontalLogo from "public/plane-logos/loddgo.png";
+import WhiteHorizontalLogo from "public/plane-logos/loddgo.png";
 import emptyInvitation from "public/empty-state/invitation.svg";
 // helpers
 import { truncateText } from "helpers/string.helper";
