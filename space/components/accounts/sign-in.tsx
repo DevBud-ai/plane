@@ -104,7 +104,7 @@ export const SignInView = observer(() => {
       </div>
       <div className="grid place-items-center h-full overflow-y-auto py-5 px-7">
         <div>
-          <h1 className="text-center text-2xl sm:text-2.5xl font-semibold text-custom-text-100">Sign in to Plane</h1>
+          <h1 className="text-center text-2xl sm:text-2.5xl font-semibold text-custom-text-100">Sign in to Bud</h1>
           {data?.email_password_login && <EmailPasswordForm onSubmit={handlePasswordSignIn} />}
 
           {data?.magic_login && (

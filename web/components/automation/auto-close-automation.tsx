@@ -91,7 +91,7 @@ export const AutoCloseAutomation: React.FC<Props> = ({
             <div className="">
               <h4 className="text-sm font-medium">Auto-close issues</h4>
               <p className="text-sm text-custom-text-200 tracking-tight">
-                Plane will automatically close issue that haven’t been completed or canceled.
+                Bud will automatically close issue that haven’t been completed or canceled.
               </p>
             </div>
           </div>

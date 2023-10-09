@@ -75,7 +75,7 @@ const WorkspaceInvitation: NextPage = () => {
                   <>
                     <EmptySpace
                       title={`You are already a member of ${invitationDetail.workspace.name}`}
-                      description="Your workspace is where you'll create projects, collaborate on your issues, and organize different streams of work in your Plane account."
+                      description="Your workspace is where you'll create projects, collaborate on your issues, and organize different streams of work in your Bud account."
                     >
                       <EmptySpaceItem
                         Icon={CubeIcon}
@@ -87,7 +87,7 @@ const WorkspaceInvitation: NextPage = () => {
                 ) : (
                   <EmptySpace
                     title={`You have been invited to ${invitationDetail.workspace.name}`}
-                    description="Your workspace is where you'll create projects, collaborate on your issues, and organize different streams of work in your Plane account."
+                    description="Your workspace is where you'll create projects, collaborate on your issues, and organize different streams of work in your Bud account."
                   >
                     <EmptySpaceItem Icon={CheckIcon} title="Accept" action={handleAccept} />
                     <EmptySpaceItem
@@ -105,7 +105,7 @@ const WorkspaceInvitation: NextPage = () => {
         ) : error ? (
           <EmptySpace
             title="This invitation link is not active anymore."
-            description="Your workspace is where you'll create projects, collaborate on your issues, and organize different streams of work in your Plane account."
+            description="Your workspace is where you'll create projects, collaborate on your issues, and organize different streams of work in your Bud account."
             link={{ text: "Or start from an empty project", href: "/" }}
           >
             {!user ? (

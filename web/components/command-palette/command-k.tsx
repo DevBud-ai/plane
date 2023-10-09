@@ -654,7 +654,7 @@ export const CommandK: React.FC<Props> = ({ deleteIssue, isPaletteOpen, setIsPal
                         >
                           <div className="flex items-center gap-2 text-custom-text-200">
                             <Icon iconName="article" />
-                            Open Plane documentation
+                            Open Bud documentation
                           </div>
                         </Command.Item>
                         <Command.Item
