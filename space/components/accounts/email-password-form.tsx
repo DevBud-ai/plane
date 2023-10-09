@@ -40,7 +40,7 @@ export const EmailPasswordForm: React.FC<Props> = ({ onSubmit }) => {
   return (
     <>
       <h1 className="text-center text-2xl sm:text-2.5xl font-semibold text-custom-text-100">
-        {isResettingPassword ? "Reset your password" : isSignUpPage ? "Sign up on Plane" : "Sign in to Plane"}
+        {isResettingPassword ? "Reset your password" : isSignUpPage ? "Sign up on Bud" : "Sign in to Bud"}
       </h1>
       {isResettingPassword ? (
         <EmailResetPasswordForm setIsResettingPassword={setIsResettingPassword} />
@@ -101,7 +101,7 @@ export const EmailPasswordForm: React.FC<Props> = ({ onSubmit }) => {
             {!isSignUpPage && (
               <Link href="/sign-up">
                 <a className="block text-custom-text-200 hover:text-custom-primary-100 text-xs mt-4">
-                  Don{"'"}t have an account? Sign up.
+                  Don{"'"}t have an account.? Sign up.
                 </a>
               </Link>
             )}
