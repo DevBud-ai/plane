@@ -36,7 +36,7 @@ const TOUR_STEPS: {
     key: "issues",
     title: "Plan with issues",
     description:
-      "The issue is the building block of the Plane. Most concepts in Plane are either associated with issues and their properties.",
+      "The issue is the building block of the Bud. Most concepts in Bud are either associated with issues and their properties.",
     image: IssuesTour,
     nextStep: "cycles",
   },
@@ -94,10 +94,10 @@ export const TourRoot: React.FC<Props> = ({ onComplete }) => {
             </div>
             <div className="h-2/5 overflow-y-auto p-6">
               <h3 className="font-semibold sm:text-xl">
-                Welcome to Plane, {user?.first_name} {user?.last_name}
+                Welcome to Bud, {user?.first_name} {user?.last_name}
               </h3>
               <p className="text-custom-text-200 text-sm mt-3">
-                We{"'"}re glad that you decided to try out Plane. You can now manage your projects
+                We{"'"}re glad that you decided to try out Bud. You can now manage your projects
                 with ease. Get started by creating a project.
               </p>
               <div className="flex items-center gap-6 mt-8">

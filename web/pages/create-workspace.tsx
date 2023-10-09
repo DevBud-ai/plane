@@ -17,8 +17,8 @@ import { UserAuthorizationLayout } from "layouts/auth-layout/user-authorization-
 // components
 import { CreateWorkspaceForm } from "components/workspace";
 // images
-import BlackHorizontalLogo from "public/plane-logos/black-horizontal-with-blue-logo.svg";
-import WhiteHorizontalLogo from "public/plane-logos/white-horizontal-with-blue-logo.svg";
+import BlackHorizontalLogo from "public/plane-logos/loddgo.png";
+import WhiteHorizontalLogo from "public/plane-logos/loddgo.png";
 // types
 import { ICurrentUserResponse, IWorkspace } from "types";
 import type { NextPage } from "next";

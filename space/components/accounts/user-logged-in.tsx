@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useMobxStore } from "lib/mobx/store-provider";
 // assets
 import UserLoggedInImage from "public/user-logged-in.svg";
-import PlaneLogo from "public/plane-logos/black-horizontal-with-blue-logo.svg";
+import PlaneLogo from "public/plane-logos/loddgo.png";
 
 export const UserLoggedIn = () => {
   const { user: userStore } = useMobxStore();

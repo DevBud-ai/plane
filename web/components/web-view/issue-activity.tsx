@@ -174,7 +174,7 @@ export const IssueActivity: React.FC<Props> = (props) => {
                         <div className="text-xs text-custom-text-200 break-words">
                           {activityItem.field === "archived_at" &&
                           activityItem.new_value !== "restore" ? (
-                            <span className="text-gray font-medium">Plane</span>
+                            <span className="text-gray font-medium">Bud</span>
                           ) : activityItem.actor_detail.is_bot ? (
                             <span className="text-gray font-medium">
                               {activityItem.actor_detail.first_name} Bot

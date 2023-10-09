@@ -168,7 +168,7 @@ const ArchivedIssueDetailsPage: NextPage = () => {
               <div className="flex items-center justify-between gap-2 px-2.5 py-2 text-sm border rounded-md text-custom-text-200 border-custom-border-200 bg-custom-background-90">
                 <div className="flex gap-2 items-center">
                   <Icon iconName="archive" className="" />
-                  <p>This issue has been archived by Plane.</p>
+                  <p>This issue has been archived by Bud.</p>
                 </div>
                 <button
                   className="flex items-center gap-2 p-1.5 text-sm rounded-md border border-custom-border-200"

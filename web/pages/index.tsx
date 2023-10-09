@@ -176,7 +176,7 @@ const HomePage: NextPage = observer(() => {
           <div className="grid place-items-center h-full overflow-y-auto py-5 px-7">
             <div>
               <h1 className="text-center text-2xl sm:text-2.5xl font-semibold text-custom-text-100">
-                {isResettingPassword ? "Reset your password" : "Sign in to Plane"}
+                {isResettingPassword ? "Reset your password" : "Sign in to Bud"}
               </h1>
               {isResettingPassword ? (
                 <EmailResetPasswordForm setIsResettingPassword={setIsResettingPassword} />
